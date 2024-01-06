@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/cloudy.png" type="image/x-icon" />
+    <title>Weather App | Momen Arabi</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- JS -->
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body class="vh-100">
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+      <div class="container d-flex justify-content-start">
+        <div class="logo">
+          <svg
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns="http://www.w3.org/2000/svg"
+            xml:space="preserve"
+            viewBox="0 0 100 100"
+            y="0px"
+            x="0px"
+            id="圖層_1"
+            version="1.1"
+            style="
+              width: 100%;
+              background-size: initial;
+              background-repeat: initial;
+              background-position-y: initial;
+              background-position-x: initial;
+              background-origin: initial;
+              background-color: initial;
+              background-clip: initial;
+              background-attachment: initial;
+              animation-play-state: paused;
+            "
+          >
+            <g class="ldl-scale" style="transform-origin: 50% 50%; transform: rotate(0deg) scale(0.8, 0.8); animation-play-state: paused">
+              <g style="animation-play-state: paused">
+                <path
+                  d="M88.24,13.99H11.76c-2.31,0-4.18,1.87-4.18,4.18v15.21h84.83V18.17C92.42,15.86,90.55,13.99,88.24,13.99z"
+                  fill="#E15B64"
+                  style="fill: rgb(225, 91, 100); animation-play-state: paused"
+                />
+                <circle r="3.5" cy="23.95" cx="19.8" fill="#C33737" style="fill: rgb(195, 55, 55); animation-play-state: paused" />
+                <line
+                  y2="23.95"
+                  x2="19.8"
+                  y1="10.03"
+                  x1="19.8"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-width="4"
+                  stroke="#CCCCCC"
+                  fill="#333333"
+                  style="stroke: rgb(204, 204, 204); fill: rgb(51, 51, 51); animation-play-state: paused"
+                />
+                <circle r="3.5" cy="23.95" cx="34.91" fill="#C33737" style="fill: rgb(195, 55, 55); animation-play-state: paused" />
+                <line
+                  y2="23.95"
+                  x2="34.91"
+                  y1="10.03"
+                  x1="34.91"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-width="4"
+                  stroke="#CCCCCC"
+                  fill="#333333"
+                  style="stroke: rgb(204, 204, 204); fill: rgb(51, 51, 51); animation-play-state: paused"
+                />
+                <circle r="3.5" cy="23.95" cx="50.01" fill="#C33737" style="fill: rgb(195, 55, 55); animation-play-state: paused" />
+                <line
+                  y2="23.95"
+                  x2="50.01"
+                  y1="10.03"
+                  x1="50.01"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-width="4"
+                  stroke="#CCCCCC"
+                  fill="#333333"
+                  style="stroke: rgb(204, 204, 204); fill: rgb(51, 51, 51); animation-play-state: paused"
+                />
+                <circle r="3.5" cy="23.95" cx="65.11" fill="#C33737" style="fill: rgb(195, 55, 55); animation-play-state: paused" />
+                <line
+                  y2="23.95"
+                  x2="65.11"
+                  y1="10.03"
+                  x1="65.11"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-width="4"
+                  stroke="#CCCCCC"
+                  fill="#333333"
+                  style="stroke: rgb(204, 204, 204); fill: rgb(51, 51, 51); animation-play-state: paused"
+                />
+                <circle r="3.5" cy="23.95" cx="80.22" fill="#C33737" style="fill: rgb(195, 55, 55); animation-play-state: paused" />
+                <line
+                  y2="23.95"
+                  x2="80.22"
+                  y1="10.03"
+                  x1="80.22"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-width="4"
+                  stroke="#CCCCCC"
+                  fill="#333333"
+                  style="stroke: rgb(204, 204, 204); fill: rgb(51, 51, 51); animation-play-state: paused"
+                />
+              </g>
+              <g style="animation-play-state: paused">
+                <path
+                  d="M7.58,33.38v51.84c0,2.31,1.87,4.18,4.18,4.18h64.95h1.4l14.3-14.3v-1.4V33.38H7.58z"
+                  fill="#E0E0E0"
+                  style="fill: rgb(224, 224, 224); animation-play-state: paused"
+                />
+                <path
+                  d="M92.42,73.7H81.27c-2.52,0-4.55,2.04-4.55,4.55V89.4h1.4l14.3-14.3V73.7z"
+                  fill="#B3B3B3"
+                  style="fill: rgb(179, 179, 179); animation-play-state: paused"
+                />
+              </g>
+              <g style="animation-play-state: paused">
+                <circle
+                  r="11.22"
+                  cy="61.5"
+                  cx="50"
+                  fill="#FFDC6C"
+                  clip-rule="evenodd"
+                  fill-rule="evenodd"
+                  style="fill: rgb(255, 220, 108); animation-play-state: paused"
+                />
+                <line
+                  y2="46.7"
+                  x2="50"
+                  y1="40.5"
+                  x1="50"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-width="3.5"
+                  stroke="#F8B26A"
+                  fill="none"
+                  style="stroke: rgb(248, 178, 106); animation-play-state: paused"
+                />
+                <line
+                  y2="48.68"
+                  x2="42.6"
+                  y1="43.31"
+                  x1="39.5"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-width="3.5"
+                  stroke="#F8B26A"
+                  fill="none"
+                  style="stroke: rgb(248, 178, 106); animation-play-state: paused"
+                />
+                <line
+                  y2="54.1"
+                  x2="37.18"
+                  y1="51"
+                  x1="31.81"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-width="3.5"
+                  stroke="#F8B26A"
+                  fill="none"
+                  style="stroke: rgb(248, 178, 106); animation-play-state: paused"
+                />
+                <line
+                  y2="61.5"
+                  x2="35.2"
+                  y1="61.5"
+                  x1="29"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-width="3.5"
+                  stroke="#F8B26A"
+                  fill="none"
+                  style="stroke: rgb(248, 178, 106); animation-play-state: paused"
+                />
+                <line
+                  y2="68.9"
+                  x2="37.18"
+                  y1="72"
+                  x1="31.81"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-width="3.5"
+                  stroke="#F8B26A"
+                  fill="none"
+                  style="stroke: rgb(248, 178, 106); animation-play-state: paused"
+                />
+                <line
+                  y2="74.32"
+                  x2="42.6"
+                  y1="79.69"
+                  x1="39.5"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-width="3.5"
+                  stroke="#F8B26A"
+                  fill="none"
+                  style="stroke: rgb(248, 178, 106); animation-play-state: paused"
+                />
+                <line
+                  y2="76.3"
+                  x2="50"
+                  y1="82.5"
+                  x1="50"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-width="3.5"
+                  stroke="#F8B26A"
+                  fill="none"
+                  style="stroke: rgb(248, 178, 106); animation-play-state: paused"
+                />
+                <line
+                  y2="74.32"
+                  x2="57.4"
+                  y1="79.69"
+                  x1="60.5"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-width="3.5"
+                  stroke="#F8B26A"
+                  fill="none"
+                  style="stroke: rgb(248, 178, 106); animation-play-state: paused"
+                />
+                <line
+                  y2="68.9"
+                  x2="62.82"
+                  y1="72"
+                  x1="68.19"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-width="3.5"
+                  stroke="#F8B26A"
+                  fill="none"
+                  style="stroke: rgb(248, 178, 106); animation-play-state: paused"
+                />
+                <line
+                  y2="61.5"
+                  x2="64.8"
+                  y1="61.5"
+                  x1="71"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-width="3.5"
+                  stroke="#F8B26A"
+                  fill="none"
+                  style="stroke: rgb(248, 178, 106); animation-play-state: paused"
+                />
+                <line
+                  y2="54.1"
+                  x2="62.82"
+                  y1="51"
+                  x1="68.19"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-width="3.5"
+                  stroke="#F8B26A"
+                  fill="none"
+                  style="stroke: rgb(248, 178, 106); animation-play-state: paused"
+                />
+                <line
+                  y2="48.68"
+                  x2="57.4"
+                  y1="43.31"
+                  x1="60.5"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-width="3.5"
+                  stroke="#F8B26A"
+                  fill="none"
+                  style="stroke: rgb(248, 178, 106); animation-play-state: paused"
+                />
+              </g>
+              <metadata xmlns:d="https://loading.io/stock/" style="animation-play-state: paused">
+                <d:name style="animation-play-state: paused">calendar</d:name>
+
+                <d:tags style="animation-play-state: paused">calendar,schedule,plan,travel,holiday,work,business,weather,sunny</d:tags>
+
+                <d:license style="animation-play-state: paused">by</d:license>
+
+                <d:slug style="animation-play-state: paused">ajhu3f</d:slug>
+              </metadata>
+            </g>
+            <!-- generated by https://loading.io/ -->
+          </svg>
+        </div>
+        <div class="logo-caption">
+          <a class="navbar-brand fw-bolder text-uppercase fs-5" href="#">Weather App</a>
+          <h6 class="tagline text-light text-opacity-50 fw-normal"><small style="font-size: 80%">Your Friendly Weather Forecaster</small></h6>
+        </div>
+        <button
+          class="navbar-toggler ms-auto"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header border-bottom border-light border-opacity-10">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Legend</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item my-2 fw-lighter"><i class="fa-solid fa-compass me-2 w-5"></i><small>Wind Direction</small></li>
+              <li class="nav-item my-2 fw-lighter"><i class="fa-solid fa-wind me-2 w-5"></i><small>Wind Speed</small></li>
+              <li class="nav-item my-2 fw-lighter"><i class="fa-solid fa-smog me-2 w-5"></i><small>Humidity Percentage</small></li>
+              <li class="nav-item my-2 fw-lighter"><i class="fa-solid fa-temperature-low me-2 w-5"></i><small>Low Temperature</small></li>
+              <li class="nav-item my-2 fw-lighter"><i class="fa-solid fa-temperature-high me-2 w-5"></i><small>High Temperature</small></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main class="position-relative d-flex pt-custom-5">
+      <div class="overlay position-absolute start-0 top-0 bg-body-tertiary bg-opacity-75 w-100 h-100"></div>
+      <div class="container d-flex align-items-center vh-custom flex-column justify-content-center z-1">
+        <h2 class="city d-none text-center text-uppercase text-custom-dark mb-5 fw-bolder fs-md"></h2>
+        <div class="input-group position-relative w-100 z-1 rounded-2">
+          <input
+            class="form-control bg-light border rounded-1 border-custom"
+            type="input"
+            placeholder="Find your location..."
+            id="find-inp"
+            autocomplete="off"
+          />
+          <span id="find-btn" class="btn btn-custom border-0 px-4 py-2 position-absolute end-0 h-100">
+            <i class="fa-solid fa-map-location-dot text-light"></i>
+          </span>
+        </div>
+        <div class="card-group d-none w-100 mt-5 mb-2 mb-sm-0 shadow-lg">
+          <div class="card text-bg-light bg-opacity-custom mb-0 rounded-xs-0">
+            <div class="card-header d-flex justify-content-between">
+              <span class="day-name"></span>
+              <span class="day-month"></span>
+            </div>
+            <div class="card-body text-center">
+              <!-- <p class="card-text city"></p> -->
+              <div
+                class="temp-info text-center w-custom w-xl-100 d-flex justify-content-lg-between justify-content-sm-center justify-content-xs-between mx-auto flex-column pb-5 mb-0"
+              >
+                <h3 class="card-title fs-lg temp order-1 flex-fill"></h3>
+                <div class="condition order-0 flex-fill">
+                  <img class="cond-img" src="" alt="weather-icon" />
+                  <p class="card-text mb-3"><small class="text-uppercase cond-text"></small></p>
+                </div>
+              </div>
+              <div class="extra d-flex justify-content-between w-custom w-xl-100 mx-auto">
+                <small><i class="fa-solid fa-smog me-1"></i><span class="humidity"></span></small>
+                <small><i class="fa-solid fa-wind me-1"></i><span class="wind"></span></small>
+                <small><i class="fa-solid fa-compass me-1"></i><span class="direction"></span></small>
+              </div>
+            </div>
+          </div>
+          <div class="card text-bg-light bg-custom bg-opacity-custom mb-0 rounded-xs-0">
+            <div class="card-header d-flex justify-content-between">
+              <span class="day-name"></span>
+              <span class="day-month"></span>
+            </div>
+            <div class="card-body text-center">
+              <!-- <p class="card-text city invisible"></p> -->
+              <div class="temp-info d-flex justify-content-center align-items-center flex-column">
+                <img class="cond-img" src="" alt="weather-icon" />
+                <p class="card-text"><small class="text-uppercase cond-text"></small></p>
+                <p class="card-title fs-3 fw-normal">
+                  <i class="fa-solid fa-temperature-high me-1"></i>
+                  <span class="max-temp"></span>
+                </p>
+                <p class="card-title fs-6 fw-normal">
+                  <i class="fa-solid fa-temperature-low me-1"></i>
+                  <span class="min-temp"></span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card text-bg-light bg-opacity-custom mb-0 rounded-xs-0">
+            <div class="card-header d-flex justify-content-between">
+              <span class="day-name"></span>
+              <span class="day-month"></span>
+            </div>
+            <div class="card-body text-center">
+              <!-- <p class="card-text city invisible"></p> -->
+              <div class="temp-info d-flex justify-content-center align-items-center flex-column">
+                <img class="cond-img" src="" alt="weather-icon" />
+                <p class="card-text"><small class="text-uppercase cond-text"></small></p>
+                <p class="card-title fs-3 fw-normal">
+                  <i class="fa-solid fa-temperature-high me-1"></i>
+                  <span class="max-temp"></span>
+                </p>
+                <p class="card-title fs-6 fw-normal">
+                  <i class="fa-solid fa-temperature-low me-1"></i>
+                  <span class="min-temp"></span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>

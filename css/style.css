@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap');
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.city {
+  font-family: 'Merriweather', serif;
+}
+
+:root {
+  --main: #84a8a8;
+  --main-light: #9ec9c9;
+  --main-dark: #4c6464;
+  --main-hover: #789898;
+}
+
+::selection {
+  background-color: var(--main);
+  color: var(--bs-light);
+}
+
+::placeholder {
+  color: #0000006d !important;
+}
+
+body {
+  background-image: url(/images/back.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+small {
+  font-size: 80%;
+}
+
+.fs-lg {
+  font-size: 3.5rem;
+}
+
+.fs-md {
+  font-size: 3rem;
+}
+
+.fs-sm {
+  font-size: 0.9rem;
+}
+
+.w-custom {
+  width: 95%;
+}
+
+.w-5 {
+  width: 5%;
+}
+
+.vh-custom {
+  min-height: 90vh;
+}
+
+.border-custom {
+  border-color: var(--main) !important;
+}
+
+.btn-custom {
+  background-color: var(--main) !important;
+}
+
+.btn-custom:hover {
+  background-color: var(--main-hover) !important;
+}
+
+.bg-custom {
+  background-color: var(--main-light) !important;
+}
+
+.bg-opacity-custom {
+  opacity: 0.95;
+}
+
+.text-custom-dark {
+  color: var(--main-dark);
+}
+
+.card {
+  transition: all ease 0.2s;
+}
+
+.card:hover {
+  opacity: 1;
+}
+
+.form-control:focus {
+  border-color: var(--main) !important;
+  box-shadow: 0 0 0 0.25rem #7ea0a03f;
+}
+
+#find-btn,
+nav {
+  z-index: 100 !important;
+}
+
+@media screen and (max-width: 575px) {
+  :root {
+    font-size: 13px;
+  }
+  .logo {
+    width: 50px;
+  }
+  .w-custom {
+    width: 80%;
+  }
+  .pt-custom-5 {
+    padding-top: 3rem !important;
+  }
+  .container {
+    width: 80%;
+  }
+  .rounded-xs-0 {
+    border-radius: 0 !important;
+  }
+  .justify-content-xs-between {
+    justify-content: space-between !important;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 600px) {
+  :root {
+    font-size: 13px;
+  }
+  .logo {
+    width: 50px;
+  }
+  .w-custom {
+    width: 80%;
+  }
+  .pt-custom-5 {
+    padding-top: 3rem !important;
+  }
+  .container {
+    width: 80%;
+  }
+  .rounded-xs-0 {
+    border-radius: 0 !important;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  :root {
+    font-size: 13px;
+  }
+  .logo {
+    width: 9%;
+  }
+  .w-custom {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .logo {
+    width: 8%;
+  }
+  .w-custom {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .logo {
+    width: 6%;
+  }
+  .w-lg-100 {
+    width: 100% !important;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .logo {
+    width: 5%;
+  }
+}

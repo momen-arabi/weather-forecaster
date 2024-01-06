@@ -43,18 +43,18 @@ async function getForcastData(inputLocation) {
       condText[i].innerText = data.forecast.forecastday[i].day.condition.text;
     }
   } else {
-    document.querySelector(".card-group").classList.add("d-none");
-    document.querySelector(".city").classList.add("d-none");
+    document.querySelector(".card-group").classList.add("invisible");
+    document.querySelector(".city").classList.add("invisible");
   }
 }
 
 findInput.addEventListener("input", function (e) {
   if (e.target.value.length >= 3) {
     getForcastData(e.target.value);
-    document.querySelector(".card-group").classList.remove("d-none");
-    document.querySelector(".city").classList.remove("d-none");
+    document.querySelector(".card-group").classList.remove("invisible");
+    document.querySelector(".city").classList.remove("invisible");
   } else {
-    document.querySelector(".card-group").classList.add("d-none");
-    document.querySelector(".city").classList.add("d-none");
+    document.querySelector(".card-group").classList.add("invisible");
+    document.querySelector(".city").classList.add("invisible");
   }
 });

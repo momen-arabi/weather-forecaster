@@ -25,7 +25,11 @@ body {
 }
 
 body {
+<<<<<<< HEAD
+  background-image: url(../images/back.jpg);
+=======
   background-image: url(images/back.jpg);
+>>>>>>> 5e505f7de35660933899f0a64bc6090526993cbc
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -56,9 +60,9 @@ small {
   width: 5%;
 }
 
-.vh-custom {
+/* .vh-custom {
   min-height: 90vh;
-}
+} */
 
 .border-custom {
   border-color: var(--main) !important;
